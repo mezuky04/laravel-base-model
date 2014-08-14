@@ -5,7 +5,7 @@
  *
  * Implements basic database operations like select, update, delete
  */
-class BaseModel {
+abstract class BaseModel {
 
     /**
      * @var string Table name
