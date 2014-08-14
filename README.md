@@ -21,3 +21,10 @@ class UsersModel extends BaseModel {
 }
 
 ```
+Then, you cand use functions like getOne, getAll, update, insert with your model.
+```php
+$usersModel = new UsersModel();
+
+$result = $usersModel->getOne(array('UserId' => 1), array('Email'));
+
+echo $result->Email;
