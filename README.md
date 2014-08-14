@@ -6,7 +6,7 @@ BaseModel.php implements in all laravel models that extends it basic database op
 # Usage
 Put BaseModel.php in your models direcotry and extend it in all your other models.
 
-```
+```php
 class UsersModel extends BaseModel {
 
     /**
