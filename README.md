@@ -21,7 +21,7 @@ class UsersModel extends BaseModel {
 }
 
 ```
-Then, you cand use functions like getOne, getAll, update, insert with your model.
+Then, you can use functions like getOne, getAll, update, insert with your model.
 ```php
 $usersModel = new UsersModel();
 
